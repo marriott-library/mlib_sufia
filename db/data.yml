@@ -1,0 +1,145 @@
+
+---
+ar_internal_metadata:
+  columns:
+  - key
+  - value
+  - created_at
+  - updated_at
+  records: 
+  - - environment
+    - development
+    - '2016-10-17 20:45:10.151339'
+    - '2016-10-17 20:45:10.151339'
+
+---
+content_blocks:
+  columns:
+  - id
+  - name
+  - value
+  - created_at
+  - updated_at
+  - external_key
+  records: 
+  - - 1
+    - featured_researcher
+    - 
+    - '2016-10-20 19:29:38.533153'
+    - '2016-10-20 19:29:38.533153'
+    - 
+  - - 2
+    - marketing_text
+    - "<p>Lorem Ipsum</p>"
+    - '2016-10-20 19:29:38.610050'
+    - '2016-10-25 17:50:01.913492'
+    - ''
+  - - 3
+    - announcement_text
+    - 
+    - '2016-10-20 19:29:38.642869'
+    - '2016-10-20 19:29:38.642869'
+    - 
+  - - 4
+    - about_page
+    - 
+    - '2016-10-25 17:49:18.363212'
+    - '2016-10-25 17:49:18.363212'
+    - 
+
+---
+roles:
+  columns:
+  - id
+  - name
+  records: 
+  - - 1
+    - admin
+
+---
+roles_users:
+  columns:
+  - role_id
+  - user_id
+  records: 
+  - - 1
+    - 1
+
+---
+users:
+  columns:
+  - id
+  - email
+  - encrypted_password
+  - reset_password_token
+  - reset_password_sent_at
+  - remember_created_at
+  - sign_in_count
+  - current_sign_in_at
+  - last_sign_in_at
+  - current_sign_in_ip
+  - last_sign_in_ip
+  - created_at
+  - updated_at
+  - guest
+  - facebook_handle
+  - twitter_handle
+  - googleplus_handle
+  - display_name
+  - address
+  - admin_area
+  - department
+  - title
+  - office
+  - chat_id
+  - website
+  - affiliation
+  - telephone
+  - avatar_file_name
+  - avatar_content_type
+  - avatar_file_size
+  - avatar_updated_at
+  - linkedin_handle
+  - orcid
+  - arkivo_token
+  - arkivo_subscription
+  - zotero_token
+  - zotero_userid
+  records: 
+  - - 1
+    - jacob.reed@utah.edu
+    - "$2a$11$CTu4yZRoqnXAWydbSb.RPOvd7em3t7SqbvsFPZD3P6jscDOoS3sju"
+    - 
+    - 
+    - 
+    - 2
+    - '2016-10-25 17:16:10.387884'
+    - '2016-10-25 17:15:01.062857'
+    - 155.97.12.239
+    - 155.97.12.239
+    - '2016-10-25 17:15:00.972014'
+    - '2016-10-25 17:20:39.603385'
+    - false
+    - ''
+    - ''
+    - ''
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - oa1EEwwb.jpeg
+    - 
+    - 
+    - 
+    - 
+    - ''
+    - 
+    - 
+    - 
+    - 
