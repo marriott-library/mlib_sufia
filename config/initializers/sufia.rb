@@ -2,8 +2,7 @@ Sufia.config do |config|
   # Injected via `rails g sufia:work Work`
   config.register_curation_concern :work
   # Email recipient of messages sent via the contact form
-  #config.contact_email = "curtis.mirci@utah.edu"
-  config.contact_email = "postmaster@sandbox2a6133075dc041e9b1749029ae04fea9.mailgun.org"
+  config.contact_email = "jacob.reed@utah.edu"
 
   # Text prefacing the subject entered in the contact form
   config.subject_prefix = "Red Hive Feedback"
