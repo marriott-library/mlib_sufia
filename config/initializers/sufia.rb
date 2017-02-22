@@ -5,7 +5,7 @@ Sufia.config do |config|
   config.contact_email = "jacob.reed@utah.edu"
 
   # Text prefacing the subject entered in the contact form
-  config.subject_prefix = "Red Hive Feedback"
+  config.subject_prefix = "The Hive Feedback"
 
   # How many notifications should be displayed on the dashboard
   # config.max_notifications_for_dashboard = 5
@@ -51,7 +51,7 @@ Sufia.config do |config|
   # config.redis_namespace = "sufia"
 
   # Specify the path to the file characterization tool:
-  # config.fits_path = "fits.sh"
+  config.fits_path = "/usr/local/bin/fits-0.8.5/fits.sh"
 
   # Specify the path to the file derivatives creation tool:
   # config.libreoffice_path = "soffice"

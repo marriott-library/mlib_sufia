@@ -70,6 +70,8 @@ end
 gem 'rsolr', '~> 1.0'
 gem 'devise'
 gem 'devise-guests', '~> 0.5'
+gem 'devise_cas_authenticatable'
+
 group :development, :test do
   gem 'fcrepo_wrapper'
   gem 'rspec-rails'

@@ -1,10 +1,10 @@
 en:
   sufia:
-    product_name:       "Red Hive"
-    product_twitter_handle: "@RedHive"
-    institution_name:   "University of Utah"
-#    institution_name_full:   "The Institution Name"
-    account_name:       "My Institution Account Id"
+    product_name:       "The Hive"
+    product_twitter_handle: "@MarriottLibrary"
+    institution_name:   "University of Utah Marriott Library"
+    institution_name_full:   "University of Utah"
+    account_name:       "My Institution Account ID"
     directory:
       suffix:           "@example.org"
     footer:

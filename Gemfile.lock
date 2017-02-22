@@ -177,6 +177,9 @@ GEM
       warden (~> 1.2.3)
     devise-guests (0.5.0)
       devise
+    devise_cas_authenticatable (1.9.2)
+      devise (>= 1.2.0)
+      rubycas-client (>= 2.2.1)
     diff-lcs (1.2.5)
     domain_name (0.5.20161021)
       unf (>= 0.0.5, < 1.0.0)
@@ -482,6 +485,8 @@ GEM
       multipart-post
       oauth2
     ruby-progressbar (1.8.1)
+    rubycas-client (2.3.9)
+      activesupport
     rubyzip (1.2.0)
     sass (3.4.22)
     sass-rails (5.0.6)
@@ -610,6 +615,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise
   devise-guests (~> 0.5)
+  devise_cas_authenticatable
   fcrepo_wrapper
   figaro (~> 1.1, >= 1.1.1)
   flipflop!
