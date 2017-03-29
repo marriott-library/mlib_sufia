@@ -40,8 +40,11 @@
             <div class="collapse" id="collapseEmbargo">
               <div class="form-inline">		
                 <%= f.input :visibility_during_embargo, wrapper: :inline, collection: visibility_options(:restrict), include_blank: false %>
-                <%= f.date_field :embargo_release_date, wrapper: :inline, value: f.object.embargo_release_date || Date.tomorrow, class: 'datepicker form-control' %>
+                <span class="form-group inline string optional work_embargo_release_date"><label class="control-label string optional" for="work_embargo_release_date">until</label>
+                <%= f.date_field :embargo_release_date, wrapper: :inline, value: f.object.embargo_release_date || Date.tomorrow, min: Date.tomorrow, max: (Date.today + 1.year), class: 'datepicker form-control' %>
+                </span>
                 <%= f.input :visibility_after_embargo, wrapper: :inline, collection: visibility_options(:loosen), include_blank: false %>
+                <%#= (Date.today + 1.year) %>
               </div>
             </div>
           </label>

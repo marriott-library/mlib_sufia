@@ -11,9 +11,6 @@ class User < ApplicationRecord
   include Sufia::User
   include Sufia::UserUsageStats
 
-
-
-
   if Blacklight::Utils.needs_attr_accessible?
     attr_accessible :email, :password, :password_confirmation
   end
@@ -24,7 +21,7 @@ class User < ApplicationRecord
   #devise :cas_authenticatable, :registerable,
   #       :recoverable, :rememberable, :trackable, :validatable
 
-  devise :cas_authenticatable, :recoverable, :registerable, :rememberable, :trackable
+  devise :cas_authenticatable, :recoverable, :registerable, :rememberable, :trackable, :timeoutable
 
 def cas_extra_attributes=(extra_attributes)
   extra_attributes.each do |name, value|
